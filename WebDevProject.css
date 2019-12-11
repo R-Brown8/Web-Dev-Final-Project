@@ -1,33 +1,50 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap');
 /* CSS Document */
+
+* {
+font-family: 'Montserrat', sans-serif;
+}
 
 body {
 		background-color: black;
 		color: white;
 		}
 		
-		
-		
-		img .SpotifyLogo {
-		border-radius: 50%;
-		height: auto; 
-    	width: auto; 
-    	max-width: 30px; 
-   		max-height: 30px;
-		margin-top: 100px;
-		margin-left: 100px;
-		margin-right: 100px;
-		}
-		
-		img {
-  		border-radius: 50%;
-		height: auto; 
-    	width: auto; 
-    	max-width: 200px; 
-   		max-height: 200px;
-		margin-top: 100px;
-		margin-left: 100px;
-		margin-right: 100px;
-		}
+ 
+ .SpotifyLogo {
+
+  display: inline-block;
+  height: 100px;
+  weight: 100px;
+
+}
+
+.artists-profile {
+align-content: center;
+align: center;
+border-radius: 50%;
+height: 300px;
+weight: 300px;
+}
+
+.artist1-profile {
+align: center;
+border-radius: 50%;
+height: 300px;
+weight: 300px;
+}
+
+.artist2-profile {
+align-content: center;
+border-radius: 50%;
+height: 300px;
+weight: 300px;
+}
+
+.navbar-text {
+font-size: 3em;
+margin-top: 0;
+}
 
 
